@@ -1,0 +1,24 @@
+.title-container {
+    width: 100%;
+    margin: 50px 0;
+    // First title
+    .title {
+        color: #333333;
+        position: relative;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 30px;
+        z-index: 1;
+        // Second title
+        .back-title {
+            color: lightgrey;
+            position: absolute;
+            z-index: -1;
+            font-size: 80px;
+            left: 0;
+            right: 0;
+            top: -30px;
+            opacity: 0.5;
+        }
+    }
+}

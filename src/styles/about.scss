@@ -1,42 +1,5 @@
 .about-section {
     background-color: darkgrey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0px;
-    text-align: center;
-
-    .about-title-container {
-        width: 100%;
-        margin: 50px 0;
-
-        .about-title {
-            color: #333333;
-            position: relative;
-            margin: 0;
-            text-transform: uppercase;
-            font-size: 30px;
-            z-index: 1;
-    
-            span {
-                color: lightgrey;
-                position: absolute;
-                z-index: -1;
-                font-size: 80px;
-                left: 0;
-                right: 0;
-                top: -30px;
-                opacity: 0.5;
-            }
-        }
-    }
-
-    .about-line {
-        background-color: #333333;
-        width: 350px;
-        height: 2px;
-        margin: 40px 0;
-    }
 
     .about-text-container {
         width: 600px;
