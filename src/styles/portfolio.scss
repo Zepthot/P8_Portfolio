@@ -1,4 +1,38 @@
 .portfolio-section {
     background-color: #898989;
 
+    .filters {
+        margin: 25px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 35px;
+
+            li {
+                list-style-type: none;
+
+                button {
+                    border: 2px solid transparent;
+                    border-radius: 5px;
+                    background: none;
+                    font-family: 'Montserrat';
+                    font-size: 18px;
+                    color: #333333;
+                    transition: background 0.4s, box-shadow 0.4s;
+                }
+
+                button:hover {
+                    cursor: pointer;
+                    border-radius: 5px;
+                    background: darkorange;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+
+                .button-active {
+                    background: orange;
+                }
+            }
+        }
+    }
 }

@@ -1,6 +1,6 @@
 import '../styles/header.scss';
-import logo from '../assets/opti/logo.webp';
-import flagfr from '../assets/opti/flag-fr.webp';
+import logo from '../assets/logo.webp';
+import flagfr from '../assets/flag-fr.webp';
 
 // Header function for page header
 function Header() {

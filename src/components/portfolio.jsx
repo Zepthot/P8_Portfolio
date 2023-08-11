@@ -10,6 +10,13 @@ function Portfolio() {
             <Titles title='Portfolio' btitle='Mes Réalisations' />
             {/* Split line */}
             <Line />
+            <div className='filters'>
+                <ul>
+                    <li><button className='button-active'>All</button></li>
+                    <li><button>OpenClassrooms</button></li>
+                    <li><button>Personnal</button></li>
+                </ul>
+            </div>
         </section>
     )
 }

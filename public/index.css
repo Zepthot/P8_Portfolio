@@ -20,3 +20,8 @@ section {
 strong {
     color: orange;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
