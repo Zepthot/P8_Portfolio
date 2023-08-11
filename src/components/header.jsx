@@ -2,6 +2,7 @@ import '../styles/header.scss';
 import logo from '../assets/opti/logo.webp';
 import flagfr from '../assets/opti/flag-fr.webp';
 
+// Header function for page header
 function Header() {
     return (
         <header className='header-component'>
@@ -23,4 +24,5 @@ function Header() {
     )
 }
 
+// Export to use it elsewhere
 export default Header

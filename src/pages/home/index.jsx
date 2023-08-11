@@ -1,9 +1,12 @@
-
+import React from 'react';
+import About from '../../components/about';
 
 // Core function
 function Core() {
     return(
-        <p>TODO</p>
+        <React.StrictMode>
+            <About />
+        </React.StrictMode>
     )
 }
 
