@@ -4,7 +4,16 @@ import '../styles/about.scss';
 function About() {
     return(
         <section className="about-section">
-            <p>TODO</p>
+            {/* Double title container */}
+            <div className='about-title-container'>
+                <h2 className='about-title'>Présentation<span className='about-back-title'>Qui suis-je ?</span></h2>
+            </div>
+            {/* Split line */}
+            <div className='about-line'></div>
+            {/* About container with strong key words */}
+            <div className='about-text-container'>
+                <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            </div>
         </section>
     )
 }
