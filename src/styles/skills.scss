@@ -1,0 +1,21 @@
+.skills-section {
+    background-color: darkgrey;
+
+    .skills-container {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        .skills-soft {
+            width: 500px;
+        }
+
+        .skills-hard {
+
+            li {
+                list-style-type: none;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

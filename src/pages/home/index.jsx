@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../../components/about';
 import Portfolio from '../../components/portfolio';
+import Skills from '../../components/skills';
 
 // Core function with all sections
 function Core() {
@@ -8,6 +9,7 @@ function Core() {
         <React.StrictMode>
             <About />
             <Portfolio />
+            <Skills />
         </React.StrictMode>
     )
 }
