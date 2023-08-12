@@ -1,8 +1,9 @@
 [
     {
-        "id": "1",
+        "id": "0",
         "title": "Discord bot",
-        "cover": "",
+        "cover": "https://wotpack.ru/wp-content/uploads/2023/01/word-image-196069-1.jpg",
+        "coveralt": "image discord bot",
         "description": "Development of a basic moderation bot for Discord.",
         "category": "Personnal",
         "infos": {
@@ -15,12 +16,13 @@
             ]
         },
         "context": "With 20 different commands and a database, it performs a few basic moderation actions on a small server.",
-        "link-git": "none"
+        "linkgit": "none"
     },
     {
-        "id": "2",
+        "id": "1",
         "title": "Booki",
-        "cover": "./assets/Banner-Booki.webp",
+        "cover": "./images/cover/Banner-Booki.webp",
+        "coveralt": "image banner booki",
         "description": "This is OpenClassrooms' first project. It provides an opportunity to discover web tools and practices through a mock-up project. The mock-up is created in HTML and CSS using Figma.",
         "category": "OpenClassrooms",
         "infos": {
@@ -35,6 +37,6 @@
             ]
         },
         "context": "Booki is a start-up that wants to develop a website enabling users to find accommodation and activities in the city of their choice. Sarah, the CTO prepared a base for me to complete with the mock-up elements prepared by Loïc, the UI designer.Sarah entrusted me with the task of integrating the site's interface in HTML and CSS into a web mock-up, while preserving the given structure. ",
-        "link-git": "https://github.com/Zepthot/Project_2_Booki_Home_Page"
+        "linkgit": "https://github.com/Zepthot/Project_2_Booki_Home_Page"
     }
 ]

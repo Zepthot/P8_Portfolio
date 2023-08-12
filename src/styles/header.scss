@@ -1,13 +1,15 @@
 .header-component {
     background-color: lightgrey;
     height: 100px;
+    width: 100%;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 70px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    z-index: 1;
+    z-index: 2;
     // Logo home
     .logo {
         width: 60px;
