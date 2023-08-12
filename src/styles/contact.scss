@@ -1,0 +1,44 @@
+.contact-section {
+    background-color: #898989;
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .form-element {
+            font-family: 'Montserrat';
+            margin-top: 15px;
+            width: 400px;
+            padding: 5px 0 5px 10px;
+            border: 2px solid #ddd;
+            font-size: 14px;
+            border-radius: 5px;
+            transition: border 0.3s;
+        }
+
+        .form-element:focus {
+            outline: 0;
+            border: 2px solid #333333;
+        }
+
+        .form-input {
+            height: 30px;
+        }
+
+        .form-button {
+            height: 35px;
+            width: 414px;
+            background-color: #333333;
+            border: 2px solid #333333;
+            color: lightgrey;
+            transition: border 0.3s, color 0.3s;
+        }
+
+        .form-button:hover {
+            cursor: pointer;
+            border: 2px solid orange;
+            color: orange;
+        }
+    }
+}
