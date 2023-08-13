@@ -2,10 +2,10 @@
     {
         "id": "0",
         "title": "Discord bot",
-        "cover": "https://wotpack.ru/wp-content/uploads/2023/01/word-image-196069-1.jpg",
+        "cover": "./images/cover/discord-bot.webp",
         "coveralt": "image discord bot",
         "description": "Development of a basic moderation bot for Discord.",
-        "category": "Personnal",
+        "categoryid": "0", 
         "infos": {
             "year": "2022",
             "tags": [
@@ -15,16 +15,16 @@
                 "Deployment"
             ]
         },
-        "context": "With 20 different commands and a database, it performs a few basic moderation actions on a small server.",
+        "context": "Avec 20 commandes différentes et une base de données, il effectue quelques actions de modération de base sur un petit serveur.",
         "linkgit": "none"
     },
     {
         "id": "1",
         "title": "Booki",
         "cover": "./images/cover/Banner-Booki.webp",
-        "coveralt": "image banner booki",
-        "description": "This is OpenClassrooms' first project. It provides an opportunity to discover web tools and practices through a mock-up project. The mock-up is created in HTML and CSS using Figma.",
-        "category": "OpenClassrooms",
+        "coveralt": "Bannière du site Booki",
+        "description": "Il s'agit du premier projet d'OpenClassrooms. Il permet de découvrir les outils et les pratiques du web à travers un projet de maquette. La maquette est créée en HTML et CSS à l'aide de Figma.",
+        "categoryid": "1",
         "infos": {
             "year": "2023",
             "tags": [
@@ -36,7 +36,112 @@
                 "Github"
             ]
         },
-        "context": "Booki is a start-up that wants to develop a website enabling users to find accommodation and activities in the city of their choice. Sarah, the CTO prepared a base for me to complete with the mock-up elements prepared by Loïc, the UI designer.Sarah entrusted me with the task of integrating the site's interface in HTML and CSS into a web mock-up, while preserving the given structure. ",
+        "context": "Booki est une start-up qui souhaite développer un site web permettant aux utilisateurs de trouver un logement et des activités dans la ville de leur choix. Sarah, la CTO m'a préparé une base à compléter avec les éléments des maquettes préparés par Loïc, l'UI designer. Sarah me charge d'intégrer en une maquette web l'interface du site en HTML et CSS tout en conservant la structure donnée.",
         "linkgit": "https://github.com/Zepthot/Project_2_Booki_Home_Page"
+    },
+    {
+        "id": "2",
+        "title": "Sophie Bluel",
+        "cover": "./images/cover/sophie-bluel.webp",
+        "coveralt": "Image de la page d'accueil du site",
+        "description": "Il s'agit du deuxième projet d'OpenClassrooms. Il nous apprend à rendre une page web dynamique à l'aide de javascript. On nous a fourni un backend et une base pour le frontend, une maquette sur Figma à respecter, et un Kanban sous Notion.",
+        "categoryid": "1",
+        "infos": {
+            "year": "2023",
+            "tags": [
+                "Javascript",
+                "Frontend",
+                "API",
+                "Figma",
+                "Responsive",
+                "Github"
+            ]
+        },
+        "context": "Je suis développeur front-end pour ArchiWebos. Ayant terminé le dernier projet avec un peu d'avance, je suis appelé à renforcer la création du site portfolio d'un architecte d'intérieur.",
+        "linkgit": "https://github.com/Zepthot/P3_Portfolio_Architecte_Sophie_Bluel"
+    },
+    {
+        "id": "3",
+        "title": "Menu Maker by Qwenta",
+        "cover": "./images/cover/menu-maker.webp",
+        "coveralt": "Bannière du site Menu Maker by Qwenta",
+        "description": "Il s'agit du troisième projet d'OpenClassrooms. Ce projet nous demande de proposer et d'organiser la réalisation de la solution technique. Nous devons mettre en place un outil de veille technique, de rédiger les spécifications techniques de la solution, d'utiliser une outil de gestion de projet et d'y réaliser un Kanban, et de présenter le tout.",
+        "categoryid": "1",
+        "infos": {
+            "year": "2023",
+            "tags": [
+                "Gestion de projet",
+                "Solution technique",
+                "Kanban",
+                "Figma"
+            ]
+        },
+        "context": "Je suis développeur front-end au sein de l'agence Webgencia. On me confie une mission un peu différente de d'habitude. Il ne s'agit pas de développer un site mais de mener, préparer et planifier le projet de développement d'un site.",
+        "linkgit": "none"
+    },
+    {
+        "id": "4",
+        "title": "Nina Carducci - Photographe",
+        "cover": "./images/cover/nina-carducci.webp",
+        "coveralt": "Bannière présentant une photo d'un mariage. Il est écrit : Nina Carducci, photographe",
+        "description": "Il s'agit du quatrième projet d'OpenClassrooms. Il nous ai demandé d'optimiser un site après avoir effectuer un audit. Après l'intervention, un rapport est rédigé pour le présenter à la cliente.",
+        "categoryid": "1",
+        "infos": {
+            "year": "2023",
+            "tags": [
+                "Optimisation",
+                "Audit",
+                "Lighthouse",
+                "Wave",
+                "Google Rich Snippet",
+                "Rapport",
+                "Github"
+            ]
+        },
+        "context": "En tant que développeur freelance, j'ai audit le site web de Nina en proposant de l'optimiser. Nina a répondu favorablement à ma demande. Nous avons convenu de plusieurs prestations : optimisation globale, SEO, référencement local, métas pour réseaux sociaux, accessibilité et enfin un rapport présentant tout cela.",
+        "linkgit": "https://github.com/Zepthot/P5_Optimisation_debug"
+    },
+    {
+        "id": "5",
+        "title": "Kasa",
+        "cover": "./images/cover/kasa.webp",
+        "coveralt": "Image d'une chambre d'hôtel avec le logo de Kasa.",
+        "description": "Il s'agit du cinquième projet d'OpenClassrooms. C'est un projet de refonte entière d'un site de location immobilière qui nous fait découvrir ReactJS au sein duquel il faut réaliser tous les composants.",
+        "categoryid": "1",
+        "infos": {
+            "year": "2023",
+            "tags": [
+                "ReactJS",
+                "Frontend",
+                "API",
+                "Figma",
+                "Responsive",
+                "Github"
+            ]
+        },
+        "context": "Kasa est dans le métier de la location d'appartements entre particuliers depuis près de 10 ans maintenant. Laura, la CTO, a lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa me recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web.",
+        "linkgit": "https://github.com/Zepthot/P6_Application_Web_Kasa"
+    },
+    {
+        "id": "6",
+        "title": "Mon Vieux Grimoire",
+        "cover": "./images/cover/vieux-grimoire.webp",
+        "coveralt": "Bannière du site Mon Vieux Grimoire",
+        "description": "Il s'agit du sixième projet d'OpenClassrooms. Nous devons construire le backend du site en NoSQL avec MongoDB en Javascript.",
+        "categoryid": "1",
+        "infos": {
+            "year": "2023",
+            "tags": [
+                "Javascript",
+                "Backend",
+                "API",
+                "MongoDB",
+                "NoSQL",
+                "Figma",
+                "Github"
+            ]
+        },
+        "context": "Je suis développeur back-end en freelance depuis maintenant un an dans la région de Lille. Je travaille souvent avec Kévin, un développeur front-end plus expérimenté. Il me contacte pour travailler en collaboration avec lui sur un site de référencement et de notation de livres.",
+        "linkgit": "https://github.com/Zepthot/P7_Backend_VieuxGrimoire"
     }
 ]

@@ -7,8 +7,8 @@ function Footer() {
     return (
         <footer className='footer-component'>
             <div>
-                <a href='https://github.com/Zepthot' target='_blank'><img src={gitimage} alt='Logo Github' className='footer-logo' /></a>
-                <a href='https://www.linkedin.com/in/yoann-poulard-theuil/' target='_blank'><img src={linkedimage} alt='Logo LinkedIn' className='footer-logo' /></a>
+                <a href='https://github.com/Zepthot' target='_blank' rel='noreferrer'><img src={gitimage} alt='Logo Github' className='footer-logo' /></a>
+                <a href='https://www.linkedin.com/in/yoann-poulard-theuil/' target='_blank' rel='noreferrer'><img src={linkedimage} alt='Logo LinkedIn' className='footer-logo' /></a>
             </div>
             <p className='footer-name'>Yoann POULARD-THEUIL</p>
         </footer>

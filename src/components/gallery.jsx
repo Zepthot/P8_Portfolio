@@ -15,7 +15,7 @@ function Gallery() {
             return (
             <li key={project.id} id={project.id}>
                 {/* Sends the necessary data to the component */}
-                <Article title={project.title} image={project.cover} alt={project.coveralt} />
+                <Article title={project.title} image={project.cover} alt={project.coveralt} banner={project.categoryid} />
             </li>
             )
         })}
