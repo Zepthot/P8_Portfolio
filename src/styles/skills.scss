@@ -1,5 +1,5 @@
 .skills-section {
-    background-color: darkgrey;
+    background-color: #cbcbc9;
 
     .skills-container {
         display: flex;
@@ -18,4 +18,8 @@
             }
         }
     }
+}
+
+#skills {
+    scroll-margin-top: 100px;
 }

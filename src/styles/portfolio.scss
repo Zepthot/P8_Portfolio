@@ -1,5 +1,5 @@
 .portfolio-section {
-    background-color: #898989;
+    background-color: #767676;
 
     .filters {
         margin: 25px;
@@ -18,21 +18,25 @@
                     background: none;
                     font-family: 'Montserrat';
                     font-size: 18px;
-                    color: #333333;
+                    color: #1c1c1c;
                     transition: background 0.4s, box-shadow 0.4s;
                 }
 
                 button:hover {
                     cursor: pointer;
                     border-radius: 5px;
-                    background: darkorange;
+                    background: #d45a08;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 }
 
                 .button-active {
-                    background: orange;
+                    background: #d45a08;
                 }
             }
         }
     }
+}
+
+#portfolio {
+    scroll-margin-top: 100px;
 }

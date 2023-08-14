@@ -1,10 +1,13 @@
 .about-section {
-    background-color: darkgrey;
-    margin-top: 100px;
+    background-color: #cbcbc9;
 
     .about-text-container {
         width: 600px;
         text-align: justify;
         font-size: 18px;
     }
+}
+
+#about {
+    scroll-margin-top: 100px;
 }

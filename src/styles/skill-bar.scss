@@ -24,5 +24,9 @@
             text-transform: uppercase;
             font-weight: 600;
         }
+
+        p:hover {
+            cursor: default;
+        }
     }
 }
