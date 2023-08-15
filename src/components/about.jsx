@@ -12,7 +12,8 @@ function About() {
             <Line />
             {/* About container with strong key words */}
             <div className='about-text-container'>
-                <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <p>Je suis devenu <strong>Développeur Web full-stack</strong> suite à une reconversion professionnelle effectué avec OpenClassrooms. En seulement 5 mois, j'ai pu me familiariser avec les pratiques du web à travers <strong>7 projets professionnalisants</strong> que vous pouvez retrouver ci-dessous. </p>
+                <p>Étant autodidacte, j'aime réaliser de petits projets personnels pour pratiquer mes nouvelles connaissances. C'est pourquoi OpenClassrooms a été la solution idéale pour apprendre. De nature curieux et perfectionniste, je reste dans l'optique de <strong>toujours m'améliorer</strong>, aussi bien mes compétences techniques que sociales.</p>
             </div>
         </section>
     )
