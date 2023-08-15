@@ -3,9 +3,13 @@ import Titles from './titles';
 import Line from './title-line';
 import SkillBar from './skill-bar';
 
-// Fetch data from data file and reverse order
-const res = await fetch('./skills.json');
-let skillList = await res.json();
+// Fetch data from skills-soft file for side skills
+const resp = await fetch('./skills-soft.json');
+let skillSoftList = await resp.json();
+
+// Fetch data from skills-hard file for skill bars
+const res = await fetch('./skills-hard.json');
+let skillHardList = await res.json();
 
 // Skills function for the third section of the page
 function Skills() {
@@ -18,16 +22,20 @@ function Skills() {
             <div className='skills-container'>
                 <article className='skills-soft'>
                     <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                    {skillSoftList.map((skill) => {
+                        return (
+                            <li key={skill.id} className='skills-soft-li'>
+                                <strong>{skill.title}</strong>
+                                <div className='skills-soft-div'>{skill.subtitle}</div>
+                            </li>
+                        )
+                    })}
                     </ul>
                 </article>
+                {/* Skills bar of hard skills */}
                 <article className='skills-hard'>
                     <ul>
-                    {skillList.map((skill) => {
+                    {skillHardList.map((skill) => {
                         return (
                                 <li key={skill.id}><SkillBar name={skill.name} value={skill.value} color={skill.color} logo={skill.logo} border={skill.border} alt={skill.logoalt} /></li>
                         )
