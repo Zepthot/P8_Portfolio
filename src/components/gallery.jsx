@@ -3,6 +3,7 @@ import ReactModal from "react-modal";
 
 import '../styles/gallery.scss';
 
+// Set main element
 ReactModal.setAppElement('#root');
 
 // Fetch data from data file and reverse order
@@ -14,9 +15,11 @@ dataList = dataList.reverse();
 const resp = await fetch('./category.json');
 let catList = await resp.json();
 
+// Class for ReactModal
 class Gallery extends React.Component {
     constructor () {
         super();
+        // All datas used
         this.state = {
             showModal: false,
             id: "",
@@ -29,10 +32,12 @@ class Gallery extends React.Component {
             tags: []
         };
         
+        // Function to open and close modal
         this.handleOpenModal = this.handleOpenModal.bind(this);
         this.handleCloseModal = this.handleCloseModal.bind(this);
     }
-        
+    
+    // Stored data in state when opened
     handleOpenModal = data => {
         this.setState({ showModal: true });
         this.setState({id: data.id});
@@ -44,18 +49,22 @@ class Gallery extends React.Component {
         this.setState({infos: data.infos});
         this.setState({tags: data.infos.tags});
     }
-        
+
+    // Close modal
     handleCloseModal () {
         this.setState({ showModal: false });
     }
-        
+    
+    // Render of elements
     render () {
         return (
+            // List of every projects
             <ul className="gallery">
                 {dataList.map((project) => {
                     let banner = catList.find(cat => cat.id === project.categoryid);
                     return (
                     <li key={project.id}>
+                        {/* Sending data on click */}
                         <button onClick={() => this.handleOpenModal(project)} className='button-container'>
                             <div className='button-banner' style={{backgroundColor: `${banner.bgcolor}`}}>
                                 <p style={{color: `${banner.fontcolor}`}}>{banner.name}</p>
@@ -66,13 +75,18 @@ class Gallery extends React.Component {
                     </li>
                     )
                 })}
+                {/* Render of modal */}
                 <ReactModal isOpen={this.state.showModal} contentLabel="Modal for projects" onRequestClose={this.handleCloseModal} className="modal" overlayClassName="overlay">
+                    {/* Title and close button */}
                     <div className="modal-title-close">
                         <h3>{this.state.title}</h3>
                         <button onClick={this.handleCloseModal} className="modal-close-button">X</button>
                     </div>
+                    {/* Cover of project */}
                     <img src={this.state.cover} alt={this.state.coveralt} className="modal-cover"/>
+                    {/* Information details */}
                     <div className="modal-infos-container">
+                        {/* Left side */}
                         <div className="infos-format infos-context">
                             <div>
                                 <h4>Contexte</h4>
@@ -82,6 +96,7 @@ class Gallery extends React.Component {
                                 {this.state.gitlink ? <button style={{cursor: "pointer"}}>Github</button> : <button style={{cursor: "not-allowed"}} disabled>Github</button>}
                             </a>
                         </div>
+                        {/* Right side */}
                         <div className="infos-format infos-description">
                             <div className="description-title">
                                 <h4>Informations</h4>
@@ -105,4 +120,5 @@ class Gallery extends React.Component {
 
 // const props = {};
 
+// Export to use it elsewhere
 export default Gallery
