@@ -1,13 +1,13 @@
 import '../styles/intro.scss';
-import Titles from './titles';
 import Line from './title-line';
 
 // Intro function
 function Intro () {
     return (
         <div id='home' className='intro-div'>
-            {/* Call Title component with 2 props */}
-            <Titles title='Yoann' btitle='POULARD-THEUIL' />
+            <div className='title-container'>
+                <h1 className='title'>Yoann<span className='back-title'>POULARD-THEUIL</span></h1>
+             </div>
             {/* Split line */}
             <Line />
             {/* Sub title */}

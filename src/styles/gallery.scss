@@ -7,5 +7,187 @@
 
     li {
         list-style-type: none;
+        width: 300px;
+        height: 250px;
+
+        // Button
+        .button-container {
+            background-color: #1c1c1c;
+            width: 300px;
+            height: 250px;
+            border: 0;
+            padding: 0;
+            border-radius: 10px;
+            transition: border 0.3s;
+            font-family: 'Montserrat';
+            font-size: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            overflow: hidden;
+            // Filter banner
+            .button-banner {
+                height: 20px;
+                width: 100px;
+                position: relative;
+                margin-top: 160px;
+                border-radius: 0 5px 5px 0;
+                z-index: 1;
+                left: -180px;
+                transition: left 0.4s;
+
+                p {
+                    height: 20px;
+                    color: #efefef;
+                    font-size: 10px;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 600;
+                }
+            }
+            // Image
+            img {
+                object-fit: cover;
+                width: 300px;
+                height: 180px;
+                position: relative;
+                top: -180px;
+            }
+            // Title
+            h3 {
+                height: 62px;
+                color: #efefef;
+                margin: 0 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: color 0.3s;
+                position: relative;
+                top: -180px;
+            }
+        }
+
+        // Dynamic change
+        .button-container:hover {
+            cursor: pointer;
+            
+            h3 {
+                color: #d45a08;
+            }
+
+            .button-banner {
+                left: 0;
+            }
+        }
     }
+}
+
+.modal {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+    .modal-title-close {
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .modal-close-button {
+            position: absolute;
+            right: 20px;
+        }
+
+        .modal-close-button:hover {
+            cursor: pointer;
+        }
+    }
+
+    .modal-cover {
+        height: 380px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .modal-infos-container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+
+        .infos-format {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .infos-context {
+            margin: 15px;
+            height: 90%;
+            justify-content: space-between;
+
+            p {
+                text-align: justify;
+                margin: 0;
+            }
+        }
+
+        .infos-description {
+            margin: 15px;
+            max-height: 100%;
+
+            .description-title {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                p {
+                    margin-right: 20px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #d45a08;
+                }
+            }
+
+            p {
+                text-align: justify;
+                margin: 0;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 15px;
+
+                li {
+                    list-style-type: none;
+                    padding: 10px;
+                    background-color: #d45a08;
+                    font-weight: 600;
+                    color: #efefef;
+                }
+
+                li:hover {
+                    cursor: default;
+                }
+            }
+        }
+    }
+}
+
+.overlay {
+    z-index: 1;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    right: 25%;
+    bottom: 5%;
+    background-color: #efefef;
+    border-radius: 20px;
 }

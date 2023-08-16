@@ -4,9 +4,9 @@
         "title": "Discord bot",
         "cover": "./images/cover/discord-bot.webp",
         "coveralt": "image discord bot",
-        "description": "Development of a basic moderation bot for Discord.",
         "categoryid": "0", 
         "infos": {
+            "description": "Développement d'un bot pour Discord de modération basique.",
             "year": "2022",
             "tags": [
                 "Python",
@@ -16,16 +16,16 @@
             ]
         },
         "context": "Avec 20 commandes différentes et une base de données, il effectue quelques actions de modération de base sur un petit serveur.",
-        "linkgit": "none"
+        "linkgit": null
     },
     {
         "id": "1",
         "title": "Booki",
         "cover": "./images/cover/Banner-Booki.webp",
         "coveralt": "Bannière du site Booki",
-        "description": "Il s'agit du premier projet d'OpenClassrooms. Il permet de découvrir les outils et les pratiques du web à travers un projet de maquette. La maquette est créée en HTML et CSS à l'aide de Figma.",
         "categoryid": "1",
         "infos": {
+            "description": "Il s'agit du premier projet d'OpenClassrooms. Il permet de découvrir les outils et les pratiques du web à travers un projet de maquette. La maquette est créée en HTML et CSS à l'aide de Figma.",
             "year": "2023",
             "tags": [
                 "HTML",
@@ -44,9 +44,9 @@
         "title": "Sophie Bluel",
         "cover": "./images/cover/sophie-bluel.webp",
         "coveralt": "Image de la page d'accueil du site",
-        "description": "Il s'agit du deuxième projet d'OpenClassrooms. Il nous apprend à rendre une page web dynamique à l'aide de javascript. On nous a fourni un backend et une base pour le frontend, une maquette sur Figma à respecter, et un Kanban sous Notion.",
         "categoryid": "1",
         "infos": {
+            "description": "Il s'agit du deuxième projet d'OpenClassrooms. Il nous apprend à rendre une page web dynamique à l'aide de javascript. On nous a fourni un backend et une base pour le frontend, une maquette sur Figma à respecter, et un Kanban sous Notion.",
             "year": "2023",
             "tags": [
                 "Javascript",
@@ -65,9 +65,9 @@
         "title": "Menu Maker by Qwenta",
         "cover": "./images/cover/menu-maker.webp",
         "coveralt": "Bannière du site Menu Maker by Qwenta",
-        "description": "Il s'agit du troisième projet d'OpenClassrooms. Ce projet nous demande de proposer et d'organiser la réalisation de la solution technique. Nous devons mettre en place un outil de veille technique, de rédiger les spécifications techniques de la solution, d'utiliser une outil de gestion de projet et d'y réaliser un Kanban, et de présenter le tout.",
         "categoryid": "1",
         "infos": {
+            "description": "Il s'agit du troisième projet d'OpenClassrooms. Ce projet nous demande de proposer et d'organiser la réalisation de la solution technique. Mise en place d'un outil de veille technique, rédaction des spécifications techniques , d'utiliser un outil de gestion de projet et d'y réaliser un Kanban.",
             "year": "2023",
             "tags": [
                 "Gestion de projet",
@@ -77,16 +77,16 @@
             ]
         },
         "context": "Je suis développeur front-end au sein de l'agence Webgencia. On me confie une mission un peu différente de d'habitude. Il ne s'agit pas de développer un site mais de mener, préparer et planifier le projet de développement d'un site.",
-        "linkgit": "none"
+        "linkgit": null
     },
     {
         "id": "4",
         "title": "Nina Carducci - Photographe",
         "cover": "./images/cover/nina-carducci.webp",
         "coveralt": "Bannière présentant une photo d'un mariage. Il est écrit : Nina Carducci, photographe",
-        "description": "Il s'agit du quatrième projet d'OpenClassrooms. Il nous ai demandé d'optimiser un site après avoir effectuer un audit. Après l'intervention, un rapport est rédigé pour le présenter à la cliente.",
         "categoryid": "1",
         "infos": {
+            "description": "Il s'agit du quatrième projet d'OpenClassrooms. Il nous ai demandé d'optimiser un site après avoir effectuer un audit. Après l'intervention, un rapport est rédigé pour le présenter à la cliente.",
             "year": "2023",
             "tags": [
                 "Optimisation",
@@ -106,9 +106,9 @@
         "title": "Kasa",
         "cover": "./images/cover/kasa.webp",
         "coveralt": "Image d'une chambre d'hôtel avec le logo de Kasa.",
-        "description": "Il s'agit du cinquième projet d'OpenClassrooms. C'est un projet de refonte entière d'un site de location immobilière qui nous fait découvrir ReactJS au sein duquel il faut réaliser tous les composants.",
         "categoryid": "1",
         "infos": {
+            "description": "Il s'agit du cinquième projet d'OpenClassrooms. C'est un projet de refonte entière d'un site de location immobilière qui nous fait découvrir ReactJS au sein duquel il faut réaliser tous les composants.",
             "year": "2023",
             "tags": [
                 "ReactJS",
@@ -127,9 +127,9 @@
         "title": "Mon Vieux Grimoire",
         "cover": "./images/cover/vieux-grimoire.webp",
         "coveralt": "Bannière du site Mon Vieux Grimoire",
-        "description": "Il s'agit du sixième projet d'OpenClassrooms. Nous devons construire le backend du site en NoSQL avec MongoDB en Javascript.",
         "categoryid": "1",
         "infos": {
+            "description": "Il s'agit du sixième projet d'OpenClassrooms. Nous devons construire le backend du site en NoSQL avec MongoDB en Javascript.",
             "year": "2023",
             "tags": [
                 "Javascript",
