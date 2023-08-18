@@ -85,31 +85,35 @@ class Gallery extends React.Component {
                     {/* Cover of project */}
                     <img src={this.state.cover} alt={this.state.coveralt} className="modal-cover"/>
                     {/* Information details */}
-                    <div className="modal-infos-container">
-                        {/* Left side */}
-                        <div className="infos-format infos-context">
-                            <div>
-                                <h4>Contexte</h4>
-                                <p>{this.state.context}</p>
+                    <div className="modal-infos-button">
+                        <div className="modal-infos-container">
+                            {/* Left side */}
+                            <div className="infos-format infos-context">
+                                <div>
+                                    <h4>Contexte</h4>
+                                    <p>{this.state.context}</p>
+                                </div>
                             </div>
-                            <a href={this.state.gitlink} target='_blank' rel='noreferrer'>
-                                {this.state.gitlink ? <button style={{cursor: "pointer"}}>Github</button> : <button style={{cursor: "not-allowed"}} disabled>Github</button>}
-                            </a>
+                            {/* Right side */}
+                            <div className="infos-format infos-description">
+                                <div className="description-title">
+                                    <h4>Informations</h4>
+                                    <p>{this.state.infos.year}</p>
+                                </div>
+                                <p>{this.state.infos.description}</p>
+                                <ul>
+                                    {this.state.tags.map((tag, index) => {
+                                        return (
+                                            <li key={index}>{tag}</li>
+                                        )
+                                    })}
+                                </ul>
+                            </div>
                         </div>
-                        {/* Right side */}
-                        <div className="infos-format infos-description">
-                            <div className="description-title">
-                                <h4>Informations</h4>
-                                <p>{this.state.infos.year}</p>
-                            </div>
-                            <p>{this.state.infos.description}</p>
-                            <ul>
-                                {this.state.tags.map((tag, index) => {
-                                    return (
-                                        <li key={index}>{tag}</li>
-                                    )
-                                })}
-                            </ul>
+                        <div className="modal-button">
+                            <button style={this.state.gitlink ? {cursor: "pointer"} : {cursor: "not-allowed"}} disabled={this.state.gitlink ? false : true}>
+                                <a href={this.state.gitlink} target='_blank' rel='noreferrer' style={this.state.gitlink ? {color: "#1c1c1c"} : {color: "none"}}>Github</a>
+                            </button>
                         </div>
                     </div>
                 </ReactModal>

@@ -11,3 +11,17 @@
 #about {
     scroll-margin-top: 100px;
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .about-section {
+        .about-text-container {
+            font-size: 22px;
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
+}

@@ -53,7 +53,7 @@
             }
         }
     }
-    
+
     .button-flags {
         width: 55px;
         height: 35px;
@@ -70,4 +70,47 @@
     .button-flags:hover {
         cursor: pointer;
     }
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .header-component {
+        height: 150px;
+
+        .logo {
+            height: 100px;
+            width: 100px;
+        }
+
+        nav {
+            width: 50%;
+
+            ul {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                li {
+                    font-size: 22px;
+
+                    .links {
+                        padding: 0;
+                    }
+
+                    .links:hover {
+                        border-bottom: 2px solid transparent;
+                    }
+
+                    .active {
+                        color: #d45a08;
+                        border-bottom: 2px solid transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
 }

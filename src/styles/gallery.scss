@@ -113,70 +113,95 @@
         width: 100%;
         object-fit: cover;
     }
-    // Informations container
-    .modal-infos-container {
+    // Subcover container
+    .modal-infos-button {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 100%;
-        // Both side
-        .infos-format {
+        // Informations container
+        .modal-infos-container {
             display: flex;
-            flex-direction: column;
-            flex: 1;
-        }
-        // Left side
-        .infos-context {
-            margin: 15px;
-            height: 90%;
-            justify-content: space-between;
-
-            p {
-                text-align: justify;
-                margin: 0;
-            }
-        }
-        // Right side
-        .infos-description {
-            margin: 15px;
-            max-height: 100%;
-            // Title and year container
-            .description-title {
+            flex-direction: row;
+            height: 100%;
+            // Both side
+            .infos-format {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
+                flex: 1;
+            }
+            // Left side
+            .infos-context {
+                margin: 15px 15px 0;
                 justify-content: space-between;
-                align-items: center;
 
                 p {
-                    margin-right: 20px;
-                    font-size: 18px;
-                    font-weight: 600;
-                    color: #d45a08;
-                }
-            }
-
-            p {
-                text-align: justify;
-                margin: 0;
-            }
-            // Tags list
-            ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 10px;
-                margin-top: 15px;
-                // Tag format
-                li {
-                    list-style-type: none;
-                    padding: 10px;
-                    background-color: #d45a08;
-                    font-weight: 600;
-                    color: #efefef;
+                    text-align: justify;
+                    margin: 0;
                 }
 
-                li:hover {
-                    cursor: default;
+                button {
+                    width: 55px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+                
+            }
+            // Right side
+            .infos-description {
+                margin: 15px 15px 0;
+                // Title and year container
+                .description-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    p {
+                        margin-right: 20px;
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #d45a08;
+                    }
+                }
+
+                p {
+                    text-align: justify;
+                    margin: 0;
+                }
+                // Tags list
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 10px;
+                    margin-top: 15px;
+                    // Tag format
+                    li {
+                        list-style-type: none;
+                        padding: 10px;
+                        background-color: #d45a08;
+                        font-weight: 600;
+                        color: #efefef;
+                    }
+
+                    li:hover {
+                        cursor: default;
+                    }
+                }
+            }
+        }
+        // Git button
+        .modal-button {
+            button {
+                position: absolute;
+                left: 15px;
+                bottom: 15px;
+
+                a {
+                    text-decoration: none;
                 }
             }
         }
@@ -192,4 +217,53 @@
     bottom: 5%;
     background-color: #efefef;
     border-radius: 20px;
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+
+        li {
+            .button-container {
+                .button-banner {
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .modal {
+        .modal-title-close{
+            font-size: 25px;
+        }
+
+        .modal-infos-button {
+
+            .modal-infos-container {
+                flex-direction: column;
+
+                .infos-format {
+                    flex: none;
+
+                    h4 {
+                        font-size: 25px;
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .overlay {
+        top: 15%;
+        left: 20%;
+        right: 20%;
+        bottom: 10%;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
 }

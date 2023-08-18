@@ -31,3 +31,22 @@
         opacity: 1;
     }
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .footer-component {
+
+        .footer-logo {
+            height: 50px;
+        }
+
+        .footer-name {
+            font-size: 20px;
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
+}

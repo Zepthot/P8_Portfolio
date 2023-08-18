@@ -67,7 +67,7 @@
         "coveralt": "Bannière du site Menu Maker by Qwenta",
         "categoryid": "1",
         "infos": {
-            "description": "Il s'agit du troisième projet d'OpenClassrooms. Ce projet nous demande de proposer et d'organiser la réalisation de la solution technique. Mise en place d'un outil de veille technique, rédaction des spécifications techniques , d'utiliser un outil de gestion de projet et d'y réaliser un Kanban.",
+            "description": "Il s'agit du troisième projet d'OpenClassrooms. Il faut proposer une organisation pour la réalisation de la solution technique: mise en place d'un outil de veille technique, d'un outil de gestion de projet et d'y réaliser un Kanban, rédaction des spécifications techniques.",
             "year": "2023",
             "tags": [
                 "Gestion de projet",

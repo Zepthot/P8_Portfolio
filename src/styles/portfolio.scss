@@ -1,42 +1,17 @@
 .portfolio-section {
     background-color: #767676;
-
-    .filters {
-        margin: 25px;
-
-        ul {
-            display: flex;
-            flex-direction: row;
-            gap: 35px;
-
-            li {
-                list-style-type: none;
-
-                button {
-                    border: 2px solid transparent;
-                    border-radius: 5px;
-                    background: none;
-                    font-family: 'Montserrat';
-                    font-size: 18px;
-                    color: #1c1c1c;
-                    transition: background 0.4s, box-shadow 0.4s;
-                }
-
-                button:hover {
-                    cursor: pointer;
-                    border-radius: 5px;
-                    background: #d45a08;
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                }
-
-                .button-active {
-                    background: #d45a08;
-                }
-            }
-        }
-    }
 }
 
 #portfolio {
     scroll-margin-top: 100px;
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    // ...
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
 }

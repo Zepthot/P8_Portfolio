@@ -46,3 +46,31 @@
 #contact {
     scroll-margin-top: 100px;
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .contact-section {
+        .contact-form {
+            width: 80%;
+
+            .form-element {
+                width: 98%;
+                font-size: 20px;
+            }
+
+            .form-input {
+                height: 40px;
+            }
+
+            .form-button {
+                width: 100%;
+                height: 40px;
+            }
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
+}

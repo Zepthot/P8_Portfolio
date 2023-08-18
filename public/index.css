@@ -25,3 +25,19 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    body {
+        background-color: #1c1c1c;
+    }
+
+    main {
+        background-color: #1c1c1c;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
+}

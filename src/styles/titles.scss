@@ -26,3 +26,20 @@
 .title-container:hover {
     cursor: default;
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .title-container {
+        .title {
+            .back-title {
+                font-size: 70px;
+                top: -22px;
+            }
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /* ... */
+}
