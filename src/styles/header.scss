@@ -34,7 +34,7 @@
                 font-size: 18px;
                 font-weight: 600;
 
-                a {
+                .links {
                     padding-bottom: 37px;
                     text-decoration: none;
                     color: #efefef;
@@ -42,7 +42,7 @@
                     transition: border-bottom 0.3s, color 0.3s;
                 }
 
-                a:hover {
+                .links:hover {
                     border-bottom: 2px solid #d45a08;
                     color: #d45a08;
                 }
@@ -53,6 +53,7 @@
             }
         }
     }
+    
     .button-flags {
         width: 55px;
         height: 35px;
