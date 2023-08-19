@@ -53,7 +53,7 @@ function Header() {
     function toggleLanguage() {
         setEnglish(!isEnglish);
     };
-
+    // Responsive menu button function
     function toggleMenu() {
         const nav = document.getElementById("navbar-responsive");
         if (nav.className === "navbar") {
@@ -81,6 +81,7 @@ function Header() {
             <button className='button-flags' onClick={toggleLanguage}>
                 {isEnglish ? <img src={flagen} alt='English flag' className='flags' /> : <img src={flagfr} alt='Drapeau français' className='flags' />}
             </button>
+            {/* Responsive menu button */}
             <button className='icon-menu' onClick={toggleMenu}>
                 <i className="fa fa-bars"></i>
             </button>
