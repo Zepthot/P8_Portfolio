@@ -52,14 +52,23 @@ function Header() {
     // Language function
     function toggleLanguage() {
         setEnglish(!isEnglish);
-      };
+    };
+
+    function toggleMenu() {
+        const nav = document.getElementById("navbar-responsive");
+        if (nav.className === "navbar") {
+            nav.className += " responsive";
+        } else {
+            nav.className = "navbar";
+        }
+    };
 
     return (
         <header className='header-component'>
             {/* Logo home */}
             <a href='#home'><img src={logo} alt='Logo_YP' className='logo' onClick={removeClass} /></a>
             {/* top bar menu */}
-            <nav>
+            <nav id='navbar-responsive' className='navbar'>
                 <ul>
                     <li><a href='#about' onClick={toggleAboutClass} className={isAboutActive? 'links active' : 'links'}>Présentation</a></li>
                     <li><a href='#portfolio' onClick={togglePortClass} className={isPortfolioActive? 'links active' : 'links'}>Portfolio</a></li>
@@ -71,6 +80,9 @@ function Header() {
             {/* Language button */}
             <button className='button-flags' onClick={toggleLanguage}>
                 {isEnglish ? <img src={flagen} alt='English flag' className='flags' /> : <img src={flagfr} alt='Drapeau français' className='flags' />}
+            </button>
+            <button className='icon-menu' onClick={toggleMenu}>
+                <i className="fa fa-bars"></i>
             </button>
         </header>
     )

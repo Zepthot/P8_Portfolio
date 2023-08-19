@@ -41,5 +41,14 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
-    /* ... */
+    .title-container {
+        .title {
+            .back-title {
+                font-size: 40px;
+                top: -28px;
+                max-width: 80%;
+                left: 10%;
+            }
+        }
+    }
 }

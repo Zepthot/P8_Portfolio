@@ -23,5 +23,10 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
-    /* ... */
+    .about-section {
+        .about-text-container {
+            width: 80%;
+            font-size: 20px;
+        }
+    }
 }

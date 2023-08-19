@@ -265,5 +265,8 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
-    /* ... */
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
 }
