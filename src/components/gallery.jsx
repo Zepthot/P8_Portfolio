@@ -75,7 +75,9 @@ class Gallery extends React.Component {
                     {/* Title and close button */}
                     <div className="modal-title-close">
                         <h3>{this.state.title}</h3>
-                        <button onClick={this.handleCloseModal} className="modal-close-button">X</button>
+                        <button onClick={this.handleCloseModal} className="modal-close-button">
+                            <span class="material-symbols-outlined">close</span>
+                        </button>
                     </div>
                     {/* Cover of project */}
                     <img src={this.state.cover} alt={this.state.coveralt} className="modal-cover"/>
@@ -106,8 +108,8 @@ class Gallery extends React.Component {
                             </div>
                         </div>
                         <div className="modal-button">
-                            <button style={this.state.gitlink ? {cursor: "pointer"} : {cursor: "not-allowed"}} disabled={this.state.gitlink ? false : true}>
-                                <a href={this.state.gitlink} target='_blank' rel='noreferrer' style={this.state.gitlink ? {color: "#1c1c1c"} : {color: "none"}}>Github</a>
+                            <button className={this.state.gitlink ? "git-button" : "disabled"} disabled={this.state.gitlink ? false : true}>
+                                <a href={this.state.gitlink} target='_blank' rel='noreferrer' >Github</a>
                             </button>
                         </div>
                     </div>

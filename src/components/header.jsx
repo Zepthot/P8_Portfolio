@@ -93,7 +93,7 @@ function Header() {
             </nav>
             {/* Language button */}
             <button className='button-flags' onClick={handleLanguageChange}>
-                {isEnglish === 'en' ? <img src={flagen} alt='English flag' className='flags' /> : <img src={flagfr} alt='Drapeau français' className='flags' />}
+                {isEnglish === 'en' ? <img src={flagfr} alt='Drapeau français' className='flags' /> : <img src={flagen} alt='English flag' className='flags' />}
             </button>
             {/* Responsive menu button */}
             <button className='icon-menu' onClick={toggleMenu}>

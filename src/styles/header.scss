@@ -43,20 +43,20 @@
                 }
 
                 .links:hover {
-                    border-bottom: 2px solid #d45a08;
-                    color: #d45a08;
+                    border-bottom: 2px solid #ff5722;
+                    color: #ff5722;
                 }
 
                 .active {
-                    border-bottom: 2px solid #d45a08;
+                    border-bottom: 2px solid #ff5722;
                 }
             }
         }
     }
 
     .button-flags {
-        width: 55px;
-        height: 35px;
+        width: 43px;
+        height: 24px;
         border: 0;
         padding: 0;
 
@@ -105,7 +105,7 @@
                     }
 
                     .active {
-                        color: #d45a08;
+                        color: #ff5722;
                         border-bottom: 2px solid transparent;
                     }
                 }
