@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
 
 // Fetch data from skills-hard file for skill bars
-const res = await fetch('./skills-hard.json');
+const res = await fetch('./skills-bar.json');
 let skillHardList = await res.json();
 
 // Skills function for the third section of the page
