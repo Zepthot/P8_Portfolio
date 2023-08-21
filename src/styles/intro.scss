@@ -9,6 +9,13 @@
     justify-content: center;
     text-align: center;
 
+    .particles {
+        height: 800px;
+        width: 100%;
+        z-index: 0;
+        position: absolute;
+    }
+
     p {
         color: #1c1c1c;
         font-size: 35px;
@@ -22,4 +29,24 @@
 
 #home {
     scroll-margin-top: 100px;
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .intro-div {
+        .particles {
+            height: 750px;
+            margin-top: 50px;
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .intro-div {
+        .particles {
+            height: 800px;
+            margin-top: 0px;
+        }
+    }
 }
