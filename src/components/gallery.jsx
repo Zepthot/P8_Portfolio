@@ -1,15 +1,10 @@
 import React from "react";
 import ReactModal from "react-modal";
-
 import '../styles/gallery.scss';
+import i18n from "../i18n";
 
 // Set main element
 ReactModal.setAppElement('#root');
-
-// Fetch data from data file and reverse order
-const res = await fetch('./data.json');
-let dataList = await res.json();
-dataList = dataList.reverse();
 
 // Fetch categories from category file
 const resp = await fetch('./category.json');
@@ -60,7 +55,8 @@ class Gallery extends React.Component {
         return (
             // List of every projects
             <ul className="gallery">
-                {dataList.map((project) => {
+                {/* Translation function */}
+                {i18n.t('portfolio.projects', {returnObjects: true}).reverse().map((project) =>  {
                     let banner = catList.find(cat => cat.id === project.categoryid);
                     return (
                     <li key={project.id}>
@@ -73,8 +69,7 @@ class Gallery extends React.Component {
                             <h3>{project.title}</h3>
                         </button>
                     </li>
-                    )
-                })}
+                    )})}
                 {/* Render of modal */}
                 <ReactModal isOpen={this.state.showModal} contentLabel="Modal for projects" onRequestClose={this.handleCloseModal} className="modal" overlayClassName="overlay">
                     {/* Title and close button */}

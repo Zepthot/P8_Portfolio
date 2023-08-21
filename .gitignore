@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# CV
+/public/CV_POULARD-THEUIL_Yoann_Developpeur_web.pdf
+/public/CV_POULARD-THEUIL_Yoann_Web_developer.pdf

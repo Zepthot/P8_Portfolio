@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import About from '../../components/about';
 import Portfolio from '../../components/portfolio';
 import Skills from '../../components/skills';
@@ -7,6 +8,12 @@ import Intro from '../../components/intro';
 
 // Core function with all sections
 function Core() {
+    const { i18n } = useTranslation();
+    // Setup the application on FR
+    useEffect(() => {
+        i18n.changeLanguage('fr');
+    }, []);
+
     return (
         <React.StrictMode>
             <Intro />

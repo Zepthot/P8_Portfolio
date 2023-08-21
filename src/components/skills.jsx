@@ -2,10 +2,8 @@ import '../styles/skills.scss';
 import Titles from './titles';
 import Line from './title-line';
 import SkillBar from './skill-bar';
-
-// Fetch data from skills-soft file for side skills
-const resp = await fetch('./skills-soft.json');
-let skillSoftList = await resp.json();
+import { useTranslation } from 'react-i18next';
+import i18n from '../i18n';
 
 // Fetch data from skills-hard file for skill bars
 const res = await fetch('./skills-hard.json');
@@ -13,23 +11,25 @@ let skillHardList = await res.json();
 
 // Skills function for the third section of the page
 function Skills() {
+    // Translation function
+    const {t} = useTranslation();
+
     return (
         <section id='skills' className="skills-section">
             {/* Call Title component with 2 props */}
-            <Titles title='Compétences' btitle='À votre service' />
+            <Titles title={t('skills.title')} btitle={t('skills.backtitle')} />
             {/* Split line */}
             <Line />
             <div className='skills-container'>
                 <article className='skills-soft'>
                     <ul>
-                    {skillSoftList.map((skill) => {
-                        return (
-                            <li key={skill.id} className='skills-soft-li'>
-                                <strong>{skill.title}</strong>
-                                <div className='skills-soft-div'>{skill.subtitle}</div>
-                            </li>
-                        )
-                    })}
+                    {/* Translation function */}
+                    {i18n.t('skills.softskills', {returnObjects: true}).map((skill) => (
+                        <li key={skill.id} className='skills-soft-li'>
+                            <strong>{skill.title}</strong>
+                            <div className='skills-soft-div'>{skill.subtitle}</div>
+                        </li>
+                    ))}
                     </ul>
                 </article>
                 {/* Skills bar of hard skills */}

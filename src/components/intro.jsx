@@ -1,8 +1,12 @@
 import '../styles/intro.scss';
 import Line from './title-line';
+import { useTranslation } from 'react-i18next';
 
 // Intro function
 function Intro () {
+    // Translation function
+    const {t} = useTranslation();
+
     return (
         <div id='home' className='intro-div'>
             <div className='title-container'>
@@ -11,7 +15,7 @@ function Intro () {
             {/* Split line */}
             <Line />
             {/* Sub title */}
-            <p>Développeur Web</p>
+            <p>{t('intro.job')}</p>
         </div>
     )
 }
