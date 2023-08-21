@@ -12,6 +12,7 @@ function Core() {
     // Setup the application on FR
     useEffect(() => {
         i18n.changeLanguage('fr');
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
