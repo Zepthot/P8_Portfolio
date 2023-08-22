@@ -52,7 +52,7 @@
                 "id": "1",
                 "title": "Booki",
                 "cover": "./images/cover/Banner-Booki.webp",
-                "coveralt": "Bannière du site Booki",
+                "coveralt": "Booki website banner",
                 "categoryid": "1",
                 "infos": {
                     "description": "This is OpenClassrooms' first project. It provides an opportunity to discover web tools and practices through a mock-up project. The mock-up is created in HTML and CSS using Figma.",
@@ -73,7 +73,7 @@
                 "id": "2",
                 "title": "Sophie Bluel",
                 "cover": "./images/cover/sophie-bluel.webp",
-                "coveralt": "Image de la page d'accueil du site",
+                "coveralt": "Home page image",
                 "categoryid": "1",
                 "infos": {
                     "description": "This is OpenClassrooms' second project. It teaches us how to make a web page dynamic using JavaScript. We were provided with a backend and a base for the frontend, a mock-up on Figma to respect, and a Kanban under Notion.",
@@ -94,7 +94,7 @@
                 "id": "3",
                 "title": "Menu Maker by Qwenta",
                 "cover": "./images/cover/menu-maker.webp",
-                "coveralt": "Bannière du site Menu Maker by Qwenta",
+                "coveralt": "Menu Maker by Qwenta website banner",
                 "categoryid": "1",
                 "infos": {
                     "description": "This is OpenClassrooms' third project. We have to propose an organization for the realization of the technical solution: implementation of a technical watch tool, a project management tool and to realize a Kanban, drafting of technical specifications.",
@@ -113,7 +113,7 @@
                 "id": "4",
                 "title": "Nina Carducci - Photographie",
                 "cover": "./images/cover/nina-carducci.webp",
-                "coveralt": "Bannière présentant une photo d'un mariage. Il est écrit : Nina Carducci, photographe",
+                "coveralt": "Banner featuring a photo of a wedding. It reads: Nina Carducci, photographie",
                 "categoryid": "1",
                 "infos": {
                     "description": "This is OpenClassrooms' fourth project. We were asked to optimize a site after carrying out an audit. After the audit, a report is drawn up for presentation to the client.",
@@ -135,7 +135,7 @@
                 "id": "5",
                 "title": "Kasa",
                 "cover": "./images/cover/kasa.webp",
-                "coveralt": "Image d'une chambre d'hôtel avec le logo de Kasa.",
+                "coveralt": "Image of a hotel room with the Kasa logo.",
                 "categoryid": "1",
                 "infos": {
                     "description": "This is OpenClassrooms' fifth project. It's a project for the complete redesign of a real estate rental site, which introduces us to ReactJS, where we have to build all the components.",
@@ -156,7 +156,7 @@
                 "id": "6",
                 "title": "Mon Vieux Grimoire",
                 "cover": "./images/cover/vieux-grimoire.webp",
-                "coveralt": "Bannière du site Mon Vieux Grimoire",
+                "coveralt": "Mon Vieux Grimoire website banner",
                 "categoryid": "1",
                 "infos": {
                     "description": "This is OpenClassrooms' sixth project. We're building the site's backend in NoSQL with MongoDB in JavaScript.",
@@ -173,6 +173,26 @@
                 },
                 "context": "I've been a freelance back-end developer in the Lille area for a year now. I often work with Kévin, a more experienced front-end developer. He contacted me to work with him on a book referencing and rating site.",
                 "linkgit": "https://github.com/Zepthot/P7_Backend_VieuxGrimoire"
+            },
+            {
+                "id": "7",
+                "title": "Portfolio",
+                "cover": "./images/cover/portfolio_oc_en.webp",
+                "coveralt": "Top image of the website",
+                "categoryid": "1", 
+                "infos": {
+                    "description": "This is OpenClassrooms' seventh and final project. We need to develop and publish our portfolio, where we can showcase our work and projects.",
+                    "year": "2022",
+                    "tags": [
+                        "ReactJS",
+                        "Frontend",
+                        "Responsive",
+                        "Github",
+                        "Deployment"
+                    ]
+                },
+                "context": "I create and publish my portfolio to showcase my work with a view to finding a job.",
+                "linkgit": "https://github.com/Zepthot/P8_Portfolio"
             }
         ]
     },

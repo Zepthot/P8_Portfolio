@@ -173,6 +173,26 @@
                 },
                 "context": "Je suis développeur back-end en freelance depuis maintenant un an dans la région de Lille. Je travaille souvent avec Kévin, un développeur front-end plus expérimenté. Il me contacte pour travailler en collaboration avec lui sur un site de référencement et de notation de livres.",
                 "linkgit": "https://github.com/Zepthot/P7_Backend_VieuxGrimoire"
+            },
+            {
+                "id": "7",
+                "title": "Portfolio",
+                "cover": "./images/cover/portfolio_oc_fr.webp",
+                "coveralt": "Image du haut de la page du site",
+                "categoryid": "1", 
+                "infos": {
+                    "description": "Il s'agit du septième et dernier projet d'OpenClassrooms. Nous devons développer et publier notre portfolio qui nous permet d'y exposer notre travail et nos projets réalisés.",
+                    "year": "2022",
+                    "tags": [
+                        "ReactJS",
+                        "Frontend",
+                        "Responsive",
+                        "Github",
+                        "Déploiement"
+                    ]
+                },
+                "context": "Je crée et publie mon portfolio pour présenter mon travail dans l'optique de trouver un emploi.",
+                "linkgit": "https://github.com/Zepthot/P8_Portfolio"
             }
         ]
     },
