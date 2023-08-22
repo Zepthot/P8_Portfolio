@@ -19,7 +19,13 @@ function Contact() {
         }, (error) => {
             console.log(error.text);
         });
+
+        resetField();
     };
+    // Reset field after sending content
+    const resetField = () => {
+        document.getElementById('contact-form').reset();
+    }
 
     // Translation function
     const {t} = useTranslation();
