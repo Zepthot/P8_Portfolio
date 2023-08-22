@@ -76,7 +76,7 @@ class Gallery extends React.Component {
                     <div className="modal-title-close">
                         <h3>{this.state.title}</h3>
                         <button onClick={this.handleCloseModal} className="modal-close-button">
-                            <span class="material-symbols-outlined">close</span>
+                            <span className="material-symbols-outlined">close</span>
                         </button>
                     </div>
                     {/* Cover of project */}

@@ -82,3 +82,20 @@
         }
     }
 }
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .skills-section {
+        .skills-container {
+            .skills-soft {
+                ul .skills-soft-li {
+                    font-size: 20px;
+
+                    .skills-soft-div {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
