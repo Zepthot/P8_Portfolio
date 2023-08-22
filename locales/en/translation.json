@@ -1,0 +1,249 @@
+{
+    "header-title": {
+        "about": "About",
+        "portfolio": "Portfolio",
+        "skills": "Skills",
+        "contact": "Contact",
+        "resume": "Resume"
+    },
+    "intro": {
+        "job": "Web Developer"
+    },
+    "about": {
+        "title": "About",
+        "backtitle": "Who am I?",
+        "paragraph1": {
+            "first": "I became a ",
+            "second": "full-stack Web Developer",
+            "third": " following a professional retraining with OpenClassrooms. In just 5 months, I was able to familiarize myself with web practices through ",
+            "fourth": "7 professionalizing projects",
+            "fifth": " that you can find below. "
+        },
+        "paragraph2": {
+            "first": "Being self-taught, I like to carry out small personal projects to practice my new skills. That's why OpenClassrooms was the ideal solution for me to learn. As a curious perfectionist, I'm ",
+            "second": "always looking to improve",
+            "third": " both my technical and social skills."
+        }
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "backtitle": "My Projects",
+        "projects": [
+            {
+                "id": "0",
+                "title": "Discord bot",
+                "cover": "./images/cover/discord-bot.webp",
+                "coveralt": "image discord bot",
+                "categoryid": "0", 
+                "infos": {
+                    "description": "Development of a basic moderation bot for Discord.",
+                    "year": "2022",
+                    "tags": [
+                        "Python",
+                        "MySQL",
+                        "Discord",
+                        "Deployment"
+                    ]
+                },
+                "context": "With 20 different commands and a database, it performs a few basic moderation actions on a small server.",
+                "linkgit": null
+            },
+            {
+                "id": "1",
+                "title": "Booki",
+                "cover": "./images/cover/Banner-Booki.webp",
+                "coveralt": "Booki website banner",
+                "categoryid": "1",
+                "infos": {
+                    "description": "This is OpenClassrooms' first project. It provides an opportunity to discover web tools and practices through a mock-up project. The mock-up is created in HTML and CSS using Figma.",
+                    "year": "2023",
+                    "tags": [
+                        "HTML",
+                        "CSS",
+                        "Model",
+                        "Figma",
+                        "Responsive",
+                        "Github"
+                    ]
+                },
+                "context": "Booki is a start-up that wants to develop a website enabling users to find accommodation and activities in the city of their choice. Sarah, the CTO prepared a base for me to complete with the mock-up elements prepared by Loïc, the UI designer.Sarah entrusted me with the task of integrating the site's interface in HTML and CSS into a web mock-up, while preserving the given structure.",
+                "linkgit": "https://github.com/Zepthot/Project_2_Booki_Home_Page"
+            },
+            {
+                "id": "2",
+                "title": "Sophie Bluel",
+                "cover": "./images/cover/sophie-bluel.webp",
+                "coveralt": "Home page image",
+                "categoryid": "1",
+                "infos": {
+                    "description": "This is OpenClassrooms' second project. It teaches us how to make a web page dynamic using JavaScript. We were provided with a backend and a base for the frontend, a mock-up on Figma to respect, and a Kanban under Notion.",
+                    "year": "2023",
+                    "tags": [
+                        "JavaScript",
+                        "Frontend",
+                        "API",
+                        "Figma",
+                        "Responsive",
+                        "Github"
+                    ]
+                },
+                "context": "I am a front-end developer for ArchiWebos. Having finished the last project with a little bit of advance, I'm called to reinforce the creation of the portfolio site of an interior architect.",
+                "linkgit": "https://github.com/Zepthot/P3_Portfolio_Architecte_Sophie_Bluel"
+            },
+            {
+                "id": "3",
+                "title": "Menu Maker by Qwenta",
+                "cover": "./images/cover/menu-maker.webp",
+                "coveralt": "Menu Maker by Qwenta website banner",
+                "categoryid": "1",
+                "infos": {
+                    "description": "This is OpenClassrooms' third project. We have to propose an organization for the realization of the technical solution: implementation of a technical watch tool, a project management tool and to realize a Kanban, drafting of technical specifications.",
+                    "year": "2023",
+                    "tags": [
+                        "Project management",
+                        "Technical solution",
+                        "Kanban",
+                        "Figma"
+                    ]
+                },
+                "context": "I'm a front-end developer at Webgencia. I've been given a mission that's a little different from the usual one. It's not about developing a site, but about leading, preparing and planning a site development project.",
+                "linkgit": null
+            },
+            {
+                "id": "4",
+                "title": "Nina Carducci - Photographie",
+                "cover": "./images/cover/nina-carducci.webp",
+                "coveralt": "Banner featuring a photo of a wedding. It reads: Nina Carducci, photographie",
+                "categoryid": "1",
+                "infos": {
+                    "description": "This is OpenClassrooms' fourth project. We were asked to optimize a site after carrying out an audit. After the audit, a report is drawn up for presentation to the client.",
+                    "year": "2023",
+                    "tags": [
+                        "Optimization",
+                        "Audit",
+                        "Lighthouse",
+                        "Wave",
+                        "Google Rich Snippet",
+                        "Report",
+                        "Github"
+                    ]
+                },
+                "context": "As a freelance developer, I audited Nina's website and offered to optimize it. Nina responded favorably to my request. We agreed on several services: global optimization, SEO, local referencing, metas for social networks, accessibility and finally a report presenting all this.",
+                "linkgit": "https://github.com/Zepthot/P5_Optimisation_debug"
+            },
+            {
+                "id": "5",
+                "title": "Kasa",
+                "cover": "./images/cover/kasa.webp",
+                "coveralt": "Image of a hotel room with the Kasa logo.",
+                "categoryid": "1",
+                "infos": {
+                    "description": "This is OpenClassrooms' fifth project. It's a project for the complete redesign of a real estate rental site, which introduces us to ReactJS, where we have to build all the components.",
+                    "year": "2023",
+                    "tags": [
+                        "ReactJS",
+                        "Frontend",
+                        "Figma",
+                        "Responsive",
+                        "Github"
+                    ]
+                },
+                "context": "Kasa has been in the apartment rental business for almost 10 years now. Laura, the CTO, has launched a total redesign to move to a full JavaScript stack with NodeJS on the back-end, and React on the front-end. Kasa is recruiting me as a freelance front-end developer to develop its new web platform.",
+                "linkgit": "https://github.com/Zepthot/P6_Application_Web_Kasa"
+            },
+            {
+                "id": "6",
+                "title": "Mon Vieux Grimoire",
+                "cover": "./images/cover/vieux-grimoire.webp",
+                "coveralt": "Mon Vieux Grimoire website banner",
+                "categoryid": "1",
+                "infos": {
+                    "description": "This is OpenClassrooms' sixth project. We're building the site's backend in NoSQL with MongoDB in JavaScript.",
+                    "year": "2023",
+                    "tags": [
+                        "JavaScript",
+                        "Backend",
+                        "API",
+                        "MongoDB",
+                        "NoSQL",
+                        "Figma",
+                        "Github"
+                    ]
+                },
+                "context": "I've been a freelance back-end developer in the Lille area for a year now. I often work with Kévin, a more experienced front-end developer. He contacted me to work with him on a book referencing and rating site.",
+                "linkgit": "https://github.com/Zepthot/P7_Backend_VieuxGrimoire"
+            },
+            {
+                "id": "7",
+                "title": "Portfolio",
+                "cover": "./images/cover/portfolio_oc_en.webp",
+                "coveralt": "Top image of the website",
+                "categoryid": "1", 
+                "infos": {
+                    "description": "This is OpenClassrooms' seventh and final project. We need to develop and publish our portfolio, where we can showcase our work and projects.",
+                    "year": "2022",
+                    "tags": [
+                        "ReactJS",
+                        "Frontend",
+                        "Responsive",
+                        "Github",
+                        "Deployment"
+                    ]
+                },
+                "context": "I create and publish my portfolio to showcase my work with a view to finding a job.",
+                "linkgit": "https://github.com/Zepthot/P8_Portfolio"
+            }
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "backtitle": "Serving you",
+        "softskills": [
+            {
+                "id": "0",
+                "title": "HTML/CSS model integration",
+                "subtitle": "Using Figma models"
+            },
+            {
+                "id": "1",
+                "title": "Dynamizing pages with JavaScript",
+                "subtitle": "Authentication, element management interface"
+            },
+            {
+                "id": "2",
+                "title": "Project management",
+                "subtitle": "Propose and organize the implementation of the technical solution"
+            },
+            {
+                "id": "3",
+                "title": "Website optimization",
+                "subtitle": "Audit and intervention to optimize the site to current standards, W3C validation and natural SEO referencing"
+            },
+            {
+                "id": "4",
+                "title": "Web application development with ReactJS",
+                "subtitle": "Single-page application"
+            },
+            {
+                "id": "5",
+                "title": "JavaScript backend creation",
+                "subtitle": "Communication between the site and a database"
+            },
+            {
+                "id": "6",
+                "title": "Multi-platform production",
+                "subtitle": "Compatible with all PC, tablet and mobile devices"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "backtitle": "Don't hesitate to",
+        "form": {
+            "name": "Name",
+            "email": "E-mail address",
+            "message": "Your message",
+            "send": "Send"
+        }
+    }
+}

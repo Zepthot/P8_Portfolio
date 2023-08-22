@@ -1,0 +1,65 @@
+[
+    {
+        "id": "0",
+        "name": "html",
+        "value": "85",
+        "color": "#ff5722",
+        "border": "#e44f26",
+        "logo": "./images/skills/html-5.webp",
+        "logoalt": "Logo HTML 5"
+    },
+    {
+        "id": "1",
+        "name": "css",
+        "value": "75",
+        "color": "#379ad6",
+        "border": "#0870c2",
+        "logo": "./images/skills/css.webp",
+        "logoalt": "Logo CSS 3"
+    },
+    {
+        "id": "2",
+        "name": "mysql",
+        "value": "50",
+        "color": "#00758f",
+        "border": "#f29111",
+        "logo": "./images/skills/mysql.webp",
+        "logoalt": "Logo MySQL"
+    },
+    {
+        "id": "3",
+        "name": "nosql",
+        "value": "50",
+        "color": "#acacac",
+        "border": "#555555",
+        "logo": "./images/skills/nosql.webp",
+        "logoalt": "Logo base de donnée"
+    },
+    {
+        "id": "4",
+        "name": "git",
+        "value": "50",
+        "color": "#f64d25",
+        "border": "#b44335",
+        "logo": "./images/skills/git.webp",
+        "logoalt": "Logo Git"
+    },
+    {
+        "id": "5",
+        "name": "javacript",
+        "value": "45",
+        "color": "#f1c129",
+        "border": "#e7a630",
+        "logo": "./images/skills/js.webp",
+        "logoalt": "Logo JavaScript"
+    },
+    {
+        "id": "6",
+        "name": "python",
+        "value": "40",
+        "color": "#4483b4",
+        "border": "#f7c31d",
+        "logo": "./images/skills/python.webp",
+        "logoalt": "Logo Python"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "0",
+        "name": "Personnal",
+        "bgcolor": "#efefef",
+        "fontcolor": "#1c1c1c"
+    },
+    {
+        "id": "1",
+        "name": "OpenClassrooms",
+        "bgcolor": "#7451eb",
+        "fontcolor": "#efefef"
+    }
+]
