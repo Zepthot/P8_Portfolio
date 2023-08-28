@@ -46,15 +46,24 @@
     },
     {
         "id": "5",
-        "name": "javacript",
+        "name": "reactjs",
         "value": "45",
-        "color": "#f1c129",
-        "border": "#e7a630",
-        "logo": "./images/skills/js.webp",
-        "logoalt": "Logo JavaScript"
+        "color": "#292929",
+        "border": "#66dbfb",
+        "logo": "./images/skills/reactjs.webp",
+        "logoalt": "Logo ReactJS"
     },
     {
         "id": "6",
+        "name": "nodejs",
+        "value": "45",
+        "color": "#5fa04e",
+        "border": "#f7f7f7",
+        "logo": "./images/skills/nodejs.webp",
+        "logoalt": "Logo NodeJS"
+    },
+    {
+        "id": "7",
         "name": "python",
         "value": "40",
         "color": "#4483b4",
