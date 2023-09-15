@@ -88,7 +88,7 @@ function Header() {
                     <li><a href='#portfolio' onClick={togglePortClass} className={isPortfolioActive? 'links active' : 'links'}>{t('header-title.portfolio')}</a></li>
                     <li><a href='#skills' onClick={toggleSkillsClass} className={isSkillsActive? 'links active' : 'links'}>{t('header-title.skills')}</a></li>
                     <li><a href='#contact' onClick={toggleContactClass} className={isContactActive? 'links active' : 'links'}>{t('header-title.contact')}</a></li>
-                    <li><a href={isEnglish === 'en' ? './CV_POULARD-THEUIL_Yoann_Web_developer.pdf' : './CV_POULARD-THEUIL_Yoann_Developpeur_web.pdf'} download className='links'>{t('header-title.resume')}</a></li>
+                    <li><a href={isEnglish === 'en' ? './CV_POULARD-THEUIL_Yoann_Developpeur_web.pdf' : './Resume_POULARD-THEUIL_Yoann_Web_developer.pdf'} download className='links'>{t('header-title.resume')}</a></li>
                 </ul>
             </nav>
             {/* Language button */}
