@@ -211,7 +211,8 @@
                     ]
                 },
                 "context": "Hologram Stylish Shooter eSports is a multiplayer TPS video game project. The old site was built in a hurry. The idea was to remake it using the skills acquired during the OpenClassrooms training. Certain constraints were self-imposed. This project allowed me to practice some of the elements I wasn't comfortable with, and to explore others in greater depth.",
-                "
+				"linkgit": "https://github.com/Zepthot/hs3-project"
+			}
         ]
     },
     "skills": {
