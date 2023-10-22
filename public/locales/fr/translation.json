@@ -192,6 +192,26 @@
                 },
                 "context": "Je crée et publie mon portfolio pour présenter mon travail dans l'optique de trouver un emploi.",
                 "linkgit": "https://github.com/Zepthot/P8_Portfolio"
+            },
+            {
+                "id": "8",
+                "title": "HS3",
+                "cover": "./images/cover/hs3-header.webp",
+                "coveralt": "Logo et le nom complet stylisés",
+                "categoryid": "0",
+                "infos": {
+                    "description": "Ce projet est un retravaille du site web du projet HS3. Il est accompagné d'un backend et il est construit avec create-react-app et en application monopage.",
+                    "year": "2023",
+                    "tags": [
+                        "ReactJS",
+                        "Sass",
+                        "NodeJS",
+                        "MongoDB",
+                        "Responsive"
+                    ]
+                },
+                "context": "Hologram Stylish Shooter eSports est un projet de jeu vidéo de type TPS en multijoueur. L'ancien site a été fait dans la précipitation. L'idée était de le refaire en utilisant les compétences acquises durant la formation d'OpenClassrooms. Certaines contraintes se sont imposées d'elles-mêmes. Ce projet m'a permis de pratiquer quelques éléments où je n'étais pas à l'aise et d'en approfondir d'autres.",
+                "linkgit": "https://github.com/Zepthot/hs3-project"
             }
         ]
     },
